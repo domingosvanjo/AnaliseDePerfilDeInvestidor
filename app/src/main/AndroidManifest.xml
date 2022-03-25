@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.analisedeperfildeinvestidor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Perfil de investidor"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnaliseDePerfilDeInvestidor">
+        <activity
+            android:name=".Perguntas7"
+            android:exported="false" />
+        <activity
+            android:name=".Perguntas6"
+            android:exported="false" />
+        <activity
+            android:name=".Perguntas5"
+            android:exported="false" />
+        <activity
+            android:name=".Perguntas4"
+            android:exported="false" />
+        <activity
+            android:name=".Perguntas3"
+            android:exported="false" />
+        <activity
+            android:name=".Perguntas2"
+            android:exported="false" />
+        <activity
+            android:name=".Perguntas1"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher_background"
+            android:label="Perfil de investidor" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_background"
+            android:label="Perfil de investidor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

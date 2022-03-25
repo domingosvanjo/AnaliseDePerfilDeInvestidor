@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="0.5in"
+    tools:context=".Perguntas4">
+
+    <TextView
+        android:id="@+id/perg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="3. Ganhar o máximo que puder é importante para mim, mesmo que eu tenha que correr algum risco de perder parte do capital investido."
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+        android:textAlignment="center"/>
+
+    <RadioGroup
+        android:id="@+id/grupo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="9dp"
+        >
+
+        <RadioButton
+            android:id="@+id/opt16"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Concordo totalmente"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/opt17"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Concordo"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/opt18"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Neutro"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/opt19"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Discordo"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/opt20"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Discordo totalmente"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+
+
+
+
+</LinearLayout>

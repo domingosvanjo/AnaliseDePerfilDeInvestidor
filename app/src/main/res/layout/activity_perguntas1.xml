@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Perguntas1"
+    android:layout_marginTop="0.5in">
+
+    <TextView
+        android:id="@+id/perg0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Quantos anos faltam para a minha aposentadoria?"
+        android:layout_marginLeft="6dp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/grupo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="9dp">
+
+        <RadioButton
+            android:id="@+id/opt1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="1 a 3 anos"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/opt2"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="4 a 8 anos"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/opt3"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="9 a 16 anos"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/opt4"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="17 a 24 anos"
+            android:textSize="18dp"/>
+
+        <RadioButton
+            android:id="@+id/opt5"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="+ de 25 anos"
+            android:textSize="18dp"/>
+    </RadioGroup>
+
+
+
+</LinearLayout>
